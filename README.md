@@ -1,5 +1,7 @@
 # django-social-timeline
 
+[![Build Status](https://travis-ci.org/thelabnyc/django-social-timeline.svg)](https://travis-ci.org/thelabnyc/django-social-timeline)
+
 Social networking for django. Following system and timeline of events.
 Heavily inspired by [django-sequere](https://github.com/thoas/django-sequere)
 The main difference between the projects is that sequeue uses redis while social-timeline uses a database backend.
