@@ -26,6 +26,8 @@ social_timeline provides some mixins to make it easy to do common tasks like get
 
 # Installation and usage
 
+Tested on django 1.7, 1.8. Python 3.4.
+
 1. Add `social_timeline` to `INSTALLED_APPS`
 2. Run migrations `./manage.py migrate`
 3. Add FollowMixin to models you with to be capable of following or being followed.
