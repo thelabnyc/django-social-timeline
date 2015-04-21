@@ -39,7 +39,7 @@ Tested on django 1.7, 1.8. Python 3.4.
     class Profile(FollowMixin, models.Model):
         user = models.OneToOneField('auth.User')
     ```
-4. Review [mixins.py](/social_Timeline/mixins.py) for all actions. Examples
+4. Review [mixin.py](/social_timeline/mixin.py) for all actions. Examples
 
 ```
 user1.follow(user)
